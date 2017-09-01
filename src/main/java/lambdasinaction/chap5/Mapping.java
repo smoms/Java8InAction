@@ -39,6 +39,6 @@ public class Mapping{
                                  )
                                 .filter(pair -> (pair[0] + pair[1]) % 3 == 0)
                                 .collect(toList());
-        pairs.forEach(pair -> System.out.println("(" + pair[0] + ", " + pair[1] + ")"));
+        pairs.forEach(pair -> System.out.println("(" + pair[0] + ", " + pair[1] + " )"));
     }
 }
